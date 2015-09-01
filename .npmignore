@@ -1,0 +1,13 @@
+test
+typings
+src
+build
+node_modules
+npm-debug.log
+gulpfile.js
+tsconfig.json
+tsd.json
+.travis.yml
+.gitignore
+*.iml
+.idea

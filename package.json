@@ -1,0 +1,33 @@
+{
+  "name": "waveform",
+  "version": "0.1.0",
+  "private": true,
+  "description": "",
+  "main": "dist/bundle.js",
+  "engines": {
+    "node": "0.10.26"
+  },
+  "scripts": {
+    "test": "mocha --compilers ts:espower-typescript/guess -b --recursive",
+    "preinstall": "tsd install",
+    "build": "npm install && gulp dist",
+    "dev": "webpack-dev-server --config webpack.config.js --hot --inline"
+  },
+  "dependencies": {
+    "three": "^0.71.1",
+    "lodash": "^3.10.1",
+    "typescript": "^1.5.3"
+  },
+  "devDependencies": {
+    "uglify-js": "2.4.16",
+    "mocha": "2.1.0",
+    "typescript": "^1.6.0-dev.20150825",
+    "webpack": "^1.12.0",
+    "tsd": "0.6.4",
+    "ts-loader": "0.5.3",
+    "chai": "^3.2.0",
+    "react": "^0.13.3",
+    "file-loader": "^0.8.4",
+    "webpack-dev-server": "^1.10.1"
+  }
+}

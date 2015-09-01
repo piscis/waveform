@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "sourceMap": false,
+    "declaration": false,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "noLib": false,
+    "jsx": "react"
+  },
+  "files": [
+    "src/module.tsx",
+    "src/SpectrumRenderer.ts",
+    "typings/tsd.d.ts"
+  ]
+}
